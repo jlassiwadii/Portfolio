@@ -1,0 +1,229 @@
+body{
+    
+    background-image: url(https://gallery-wallpaper.com/wp-content/uploads/2018/02/black-and-white-nature-backgrounds-black-white-nature-wallpaper-6981943.jpg)  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    padding:30px 0px;
+    
+    
+
+}
+.container-person{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo-person{
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+}
+.i-person{ padding-right: 20px;
+}
+.name-person{
+    font-family: serif;
+    color:black;
+    font-size: 30px;
+    padding-right: 40px;
+    font-weight: bold;
+
+}
+/****************************************************************************************************************/
+.container-apropos{
+
+    background-color:rgb(200, 200, 200);
+    padding-top:20px; padding-left: 40px;
+    width:100%;
+    border-radius: 10px;
+
+}
+.h1-style{
+    color: #00b39b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: initial;
+    font-size: 25px;
+    letter-spacing: .3px;
+}
+.p-apropos{
+    padding-top: 30px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.container-p{
+    width:680px;
+}
+.container-h1{
+    padding-left: 40px;
+}
+/****************************************************************************************************************/
+.container-formation{
+    
+    background-color:rgb(200, 200, 200);
+    padding-top:20px; padding-left: 40px;
+    width:100%;
+    border-radius: 10px;
+
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+  }
+  ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+  }
+  ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+  }
+  .souligne{
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600;
+  }
+  .souligne:hover{
+    text-decoration: none;
+}
+/*******************************************************************************************************************/
+.container-competence{
+   
+   /* padding-left:290px;*/
+   background-color:rgb(200, 200, 200);
+   padding-top:20px; padding-left: 40px;
+   width:100%;
+   border-radius: 10px;
+}
+.container-langue{
+    width:70%;
+}
+.al{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color:black;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.h3-style{
+    color:black;
+}
+.container-informatique{
+    margin: 20px;
+    width:70%;
+
+}
+.dev{
+    color:red;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/****************************************************************************************************/
+.container-stage{
+   /* padding-left:60px;*/
+   background-color:rgb(200, 200, 200);
+   padding:40px 0px; 
+   width:100%;
+   border-radius: 10px;
+   
+}
+.st{
+    padding-top: 30px;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color:black;
+    font-size: 18px;
+    font-weight:600;
+}
+
+.container-maintenance{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.picture-maintenance{
+    display: flex;
+    flex-direction: row;
+    width:270px;
+    height: 180px;
+    border-radius: 10px;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+   
+}
+
+.picture-maintenance:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+     /* For IE8 and earlier */
+}
+
+/****************************************************************************************************/
+.img-social{
+    width:40px;
+    height:40px;
+}
+.sociaux{
+    
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.a-social{
+    text-decoration: none;
+    font-size: 15px;
+    color:grey;
+    font-weight: 500;
+
+}
+.a-social:hover{
+    text-decoration: none;
+    font-size: 15px;
+    color:blue;
+    font-weight: 500;
+   
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-img{
+    padding-right: 10px;
+}
